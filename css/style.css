@@ -1,0 +1,247 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+header{
+    min-height: 120vh;
+    /*background-image: url(../images/hero.jpg);*/
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+.main-nav , .social-nav , .footer-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li ,.social-nav li , .footer-nav li{
+    margin-right: 30px;
+
+}
+.main-nav li a ,.social-nav li a , .footer-nav li a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+.main-nav li a:hover ,.social-nav li a:hover , .footer-nav li a:hover {
+    text-decoration: underline;
+color: orange;
+}
+.hero{
+    position: absolute;
+top: 40%;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 150%;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-weight: 400;
+
+}
+.hero a{
+    margin-right: 20px;
+    border: solid 1px orange;
+    border-radius: 10px;
+    text-decoration: none;
+    color: orange;
+    padding: 10px 20px;
+}
+.hero a:hover{
+    color: white;
+background-color: orange;
+}
+section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+hr{
+    width: 100px;
+    border: solid 3px orange;
+    margin-bottom: 20px;
+}
+.feat-desk{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+.feat{
+    text-align: center;
+  
+}
+.feat h3{
+    font-weight: 400;
+}
+.feat p{
+    font-weight: 300;
+    line-height: 150%;
+}
+.feat i{
+    color: orange;
+    font-size: 36px;
+}
+.meal{
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.meal img{
+    width: 100%;
+    opacity: .5;
+    transition: 1s;
+
+    
+}
+.meal img:hover{
+    
+    opacity: 1;
+   transform: scale(1.1);
+
+}
+.left-work{
+text-align: right;
+padding-right: 30px;
+}
+.left-work img{
+    width: 40%;
+}
+.step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.step div{
+    
+    width: 50px;
+    height: 50px;
+    border: solid 2px orange;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.right-work{
+    padding-top: 50px;
+}
+.right-work a{
+    margin-right: 20px;
+}
+.right-work img{
+    height: 50px;
+}
+.city img{
+    width: 100%;
+}
+.city-info{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.city-info i{
+    color: orange;
+    font-size: 20px;
+    margin-right: 15px;
+}
+h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+#testimonials{
+    
+    
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#testimonials i{font-size: 50px;
+
+}
+#testimonials p{
+    line-height: 150%;
+}
+#testimonials img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+form{
+    padding-top: 50px;
+
+}
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type=text]
+input[type=email]
+
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+   input[type=checkbox]{
+    margin-bottom:20px ;
+   }
+   button{
+    padding: 10px 20px;
+    border: solid orangered 2px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+
+   }
+   button:hover{
+    background-color: white;
+    color: orange;
+   }
+   footer{
+    padding: 40px 0px;
+    background-color: #333;
+   }
+   footer p{
+    margin-top: 30px;
+    text-align: center;
+    color: #ccc;
+   }
+   .social-nav{
+    float: right;
+   }
+   
+   
+   
